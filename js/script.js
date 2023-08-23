@@ -37,7 +37,7 @@ function showList(array) {
 }
 
 document.addEventListener("DOMContentLoaded", e => {
-    let out = strangeArray.filter(ele => ele instanceof String || typeof ele === "string" )
+    let out = strangeArray.filter(i => i instanceof String || typeof i === "string" )
     out.sort();
     //console.log(out);
     showList(out);
